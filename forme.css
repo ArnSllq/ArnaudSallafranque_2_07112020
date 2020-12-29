@@ -3,6 +3,49 @@
     src: url('Raleway/Raleway-VariableFont_wght.ttf') format('truetype');
 }
 
-h1{
+body{
     font-family: 'Raleway';
+}
+/* Au maximum je vais travailler section par section pour le CSS
+Ici la mise en page du header */
+
+header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+nav > ul {
+    /* color: #0065FC; la couleur n'est pas prise en compte pour l'instant */
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+}
+
+nav li{
+    margin-right: 30px;
+    margin-top: 20px;
+}
+
+nav #login {
+    font-weight: bold;
+}
+
+nav a {
+    text-decoration: none;
+}
+
+/*On passe au footer*/
+footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+h3 {
+font-weight: bold;
+}
+footer ul {
+    list-style: none;
 }

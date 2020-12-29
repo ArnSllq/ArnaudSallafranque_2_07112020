@@ -3,25 +3,26 @@
     <head>
         <link rel="stylesheet" href="forme.css"/>
         <script src="https://kit.fontawesome.com/ab16bb9001.js" crossorigin="anonymous"></script>
-        <title>Réservia</title>
+        <title>Réservia - Trouvez votre hébergement pour des vacances de rêve</title>
     </head>
 
     <body>
         <header>
-            <img src="logo/Reservia@3x.png" alt="Réservia"
+            <img id="logo" src="logo/Reservia@3x.png" alt="Réservia"
                 srcset="logo/Reservia.svg">
-            <h1>Trouvez votre hébergements pour des vacances de rêves</h1>
-            <p>En plein centre ville ou en pleine nature</p>
-
             <nav>
                 <ul>
-                    <li>Hébergements</li>                    
-                    <li>Activités</li>
-                    <li>S'inscrire</li>
+                    <li><a href="#hebergements"> Hébergements</a></li>                    
+                    <li><a href="#activites"> Activités</a></li>
+                    <li id="login"><a href="#inscription"> S'inscrire</a></li>
                 </ul>
             </nav>
         </header>
+
         <main>
+            <section>            
+                <h2>Trouvez votre hébergements pour des vacances de rêve</h2>
+                <p>En plein centre ville ou en pleine nature</p></section>
             <section>
                 <i class="fas fa-map-marker-alt"></i>
                 <input type="search" name="search">
@@ -40,103 +41,106 @@
                           
             </section>
 
-            <section><h2>Hébergements à Marseilles</h2>
+            <section id="hebergements"> 
+                <h2>Hébergements à Marseille</h2>
                 <ul>
                     <li>Auberge la Cannebière
-                        <img src="hebergements/cannebière-s.jpg" alt="Auberge la Cannebière">
+                        <!-- <img src="hebergements/cannebière-s.jpg" alt="Auberge la Cannebière"> -->
                         <p>Nuit à partir de 25€</p> 
                         <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="far fa-star"></i>                       
                     </li>
                     <li>Hôtel du port
-                        <img src="hebergements/port-s.jpg " alt="Hôtel du port">
+                        <!-- <img src="hebergements/port-s.jpg " alt="Hôtel du port"> -->
                         <p>Nuit à partir de 52€</p>
                         <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
                     </li>
                     <li>Hôtel Les mouettes
-                        <img src="hebergements/mouettes-s.jpg" alt="Hôtel Les mouettes">
+                        <!-- <img src="hebergements/mouettes-s.jpg" alt="Hôtel Les mouettes"> -->
                         <p>Nuit à partir de 76€</p>
                         <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="far fa-star"></i>
                     </li>
                     <li>Hôtel de la mer
-                        <img src="hebergements/mer-s.jpg" alt="Hôtel de la mer">
+                        <!-- <img src="hebergements/mer-s.jpg" alt="Hôtel de la mer"> -->
                         <p>Nuit à partir de 46€</p>
                         <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="far fa-star"></i><i class="far fa-star"></i>
                     </li>
                     <li>Auberge Le Panier
-                        <img src="hebergements/panier-s.jpg" alt="Auberge Le Panier">
+                        <!-- <img src="hebergements/panier-s.jpg" alt="Auberge Le Panier"> -->
                         <p>Nuit à partir de 23€</p>
                         <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="far fa-star"></i>
                     </li>
                     <li>Hôtel chez Amina
-                        <img src="hebergements/amina-s.jpg" alt="Hôtel chez Amina">
+                        <!-- <img src="hebergements/amina-s.jpg" alt="Hôtel chez Amina"> -->
                         <p>Nuit à partir de 96€</p>
                         <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
                     </li>
                     <li>Hôtel Le soleil du matin
-                        <img src="hebergements/soleil-s.jpg" alt="Hôtel Le soleil du matin">
+                        <!-- <img src="hebergements/soleil-s.jpg" alt="Hôtel Le soleil du matin"> -->
                         <p>Nuit à partir de 128€</p>
                         <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
                     </li>
                     <li>Au cœur de l'eau Chambres d'hôtes
-                        <img src="hebergements/coeur-s.jpg" alt="Au cœur de l'eau Chambres d'hôtes">
+                        <!-- <img src="hebergements/coeur-s.jpg" alt="Au cœur de l'eau Chambres d'hôtes"> -->
                         <p>Nuit à partir de 71€</p>
                         <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="far fa-star"></i>
                     </li>
                     <li>Hôtel Tout bleu et Blanc
-                        <img src="hebergements/bleublanc-s.jpg" alt="Hôtel Tout bleu et Blanc">
+                        <!-- <img src="hebergements/bleublanc-s.jpg" alt="Hôtel Tout bleu et Blanc"> -->
                         <p>Nuit à partir de 68€</p>
                         <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="far fa-star"></i>
                     </li>
                 </ul>
             </section>
             <!--Penser à mettre les photos tailles S-->
-            <section><h2>Activités à Marseille</h2>
+            <section id="activites">
+                <h2>Activités à Marseille</h2>
                 <ul>
                     <li>Vieux Port
-                        <img src="activites/Port-m.jpg" alt="Vieux Port">
+                        <!-- <img src="activites/Port-m.jpg" alt="Vieux Port"> -->
                     </li>
                     <li>Fort de Pomègues
-                        <img src="activites/Pomegues-s.jpg" alt="Fort de Pomègues">
+                        <!-- <img src="activites/Pomegues-s.jpg" alt="Fort de Pomègues"> -->
                     </li>
                     <li>Îles de Frioul
-                        <img src="activites/Frioul-s.jpg" alt="Îles de Frioul">
+                        <!-- <img src="activites/Frioul-s.jpg" alt="Îles de Frioul"> -->
                     </li>
                     <li>Parc National des Calanques
-                        <img src="activites/Calanques-m.jpg" alt="Parc National des Calanques">
+                        <!-- <img src="activites/Calanques-m.jpg" alt="Parc National des Calanques"> -->
                     </li>
                     <li>Notre-Dame-de-la-Garde
-                        <img src="activites/Garde-s.jpg" alt="Notre-Dame-de-la-Garde">
+                        <!-- <img src="activites/Garde-s.jpg" alt="Notre-Dame-de-la-Garde"> -->
                     </li>
                     <li>Parc Longchamp
-                        <img src="activites/Longchamp-s.jpg" alt="Parc Longchamp">
+                        <!-- <img src="activites/Longchamp-s.jpg" alt="Parc Longchamp"> -->
                     </li>
                 </ul>
             
             </section>
         </main>
+        
         <footer>
             <div id="Apropos"> 
                 <h3>A propos</h3>
                 <ul>
-                    <li>Fonctionnement du site</li>
-                    <li>Conditions générales de vente</li>
-                    <li>Données et confidentialité</li>
+                    <li><a href="#">Fonctionnement du site</a></li>
+                    <li><a href="#">Conditions générales de vente</a></li>
+                    <li><a href="#">Données et confidentialité</a></li>
                 </ul>
             </div>
             
             <div id="Noshebergements">
                 <h3>Nos hébergements</h3>
                 <ul>
-                    <li>Charte qualité</li>
-                    <li>Soumettre votre hôtel</li>
+                    <li><a href="#">Charte qualité</a></li>
+                    <li><a href="#">Soumettre votre hôtel</a></li>
                 </ul>
             </div>
 
             <div id="Assistance">
-                <h2>Assistance</h2>
+                <h3>Assistance</h3>
                 <ul>
-                    <li>Centre d'aide</li>
-                    <li>Nous contacter</li>
+                    <li><a href="#">Centre d'aide</a></li>
+                    <li><a href="#">Nous contacter</a></li>
                 </ul>
             </div>
         </footer>
