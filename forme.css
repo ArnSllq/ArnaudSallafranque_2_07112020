@@ -46,6 +46,25 @@ footer {
 h3 {
 font-weight: bold;
 }
+
 footer ul {
+    list-style: none;  
+}
+
+#hebergements {
+    display: flex;
+    flex-direction: row;
+}
+
+#herbegements {
+    
+}
+
+#hebergements ul {
     list-style: none;
+}
+
+#activites {
+    display: flex;
+    flex-direction: row;
 }
