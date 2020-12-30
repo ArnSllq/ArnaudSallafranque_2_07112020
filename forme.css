@@ -9,15 +9,18 @@ body{
 /* Au maximum je vais travailler section par section pour le CSS
 Ici la mise en page du header */
 
+.hébergements strong{
+    font-weight: bold;
+}
+
 header {
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
 }
-
+/* Nav ok il reste à changer la couleur au survol et ajouter le surlignage */
 nav > ul {
-    /* color: #0065FC; la couleur n'est pas prise en compte pour l'instant */
     list-style: none;
     display: flex;
     justify-content: space-around;
@@ -34,9 +37,12 @@ nav #login {
 
 nav a {
     text-decoration: none;
+    color: #0065FC;
 }
 
 /*On passe au footer*/
+/* Footer ok, réduire le conteneur pour qu'il ne fasse pas toute
+la largeur et voir pour la taille de la police */
 footer {
     display: flex;
     flex-direction: row;
@@ -51,10 +57,37 @@ footer ul {
     list-style: none;  
 }
 
-.hebergements {
+/* Partie les plus populaires */
+
+.populaires {
     display: flex;
-    flex-direction: row;
+    flex-direction:column ;
+    justify-content: flex-end;
 }
+
+.hébergements {
+    width: 70%;
+    height: 700px;
+    background-color: #F2F2F2;
+    margin-right: 20px;
+}
+.Tuile {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.hoteldisplay {
+    background-color: white;
+    margin: 20px;
+    }
+
+    .hoteldisplay img {
+    width: 250px;
+    height: 150px;
+    object-fit: cover;
+}
+
 
 .activites {
     display: flex;
