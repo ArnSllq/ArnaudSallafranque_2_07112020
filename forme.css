@@ -51,20 +51,12 @@ footer ul {
     list-style: none;  
 }
 
-#hebergements {
+.hebergements {
     display: flex;
     flex-direction: row;
 }
 
-#herbegements {
-    
-}
-
-#hebergements ul {
-    list-style: none;
-}
-
-#activites {
+.activites {
     display: flex;
     flex-direction: row;
 }
