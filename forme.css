@@ -69,19 +69,52 @@ footer ul {
     list-style: none;  
 }
 
+.Hotel {
+   display: flex; 
+   flex-wrap: wrap;
+   flex-direction: row-reverse;
+   justify-content: space-around;
+   margin-right: 20px;
+   margin-left: 20px;
+
+}
+
 /* Partie les plus populaires */
 
 .populaires {
-    display: flex;
-    flex-direction:column ;
-    justify-content: flex-end;
-}
-
-.hébergements {
-    width: 65%;
+    width: 25%;
     height: 700px;
     background-color: #F2F2F2;
-    margin-right: 20px;
+
+}
+
+.Tuilepopu {
+    display: flex;
+    flex-direction: row ;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.popudisplay {
+background-color: white;
+margin-top: 30px;
+width: 200px;
+height: 150px;
+}
+
+.popudisplay img {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+
+}
+
+/* Partie hébergements */
+
+.hébergements {
+    width: 60%;
+    height: 700px;
+    background-color: #F2F2F2;
 }
 .Tuile {
     display: flex;
@@ -100,8 +133,54 @@ footer ul {
     object-fit: cover;
 }
 
+/* Partie activités */
 
-.activites {
+.activités {
+    background-color: thistle;
+    width: 90%;
+    height: 700px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.Tuilacti {
     display: flex;
     flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    align-items: center;
+    align-self: flex-end;
+}
+
+.activdisplay1 {
+    background-color: teal;
+    height: 600px;
+    width: 400px;
+}
+
+.activdisplay1 img {
+    height: 550px;
+    width: 400px;
+    object-fit: cover;
+
+}
+
+.Colonne {
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items:flex-start;
+    align-self: center;
+}
+
+.activdisplay2 {
+    background-color: teal;
+    height: 270px;
+    width: 400px;
+}
+
+.activdisplay2 img {
+    width: 400px ;
+    height: 220px;
+    object-fit: cover;
 }
