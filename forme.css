@@ -47,6 +47,18 @@ footer {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    align-items: center;
+    width: auto;
+    height: 200px;
+    background-color: #F2F2F2;
+    }
+
+.Apropos {
+    margin-left: 50px;
+}
+
+.Assistance {
+    margin-right: 350px;
 }
 
 h3 {
@@ -66,7 +78,7 @@ footer ul {
 }
 
 .hébergements {
-    width: 70%;
+    width: 65%;
     height: 700px;
     background-color: #F2F2F2;
     margin-right: 20px;
@@ -79,12 +91,12 @@ footer ul {
 
 .hoteldisplay {
     background-color: white;
-    margin: 20px;
+    margin: 30px;
     }
 
     .hoteldisplay img {
     width: 250px;
-    height: 150px;
+    height: 130px;
     object-fit: cover;
 }
 
