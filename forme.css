@@ -9,10 +9,6 @@ body{
 /* Au maximum je vais travailler section par section pour le CSS
 Ici la mise en page du header */
 
-.hébergements strong{
-    font-weight: bold;
-}
-
 header {
     display: flex;
     flex-direction: row;
@@ -23,21 +19,45 @@ header {
 nav > ul {
     list-style: none;
     display: flex;
-    justify-content: space-around;
+    flex-direction: row;
+    justify-content: space-between;
 }
 
 nav li{
-    margin-right: 30px;
+    margin-left: 40px;
     margin-top: 20px;
 }
 
 nav #login {
     font-weight: bold;
+    margin-right: 20px;
 }
 
 nav a {
     text-decoration: none;
     color: #0065FC;
+}
+
+/* Partie filtre */
+
+.Filtres {
+    width: 70%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.Filtres p {
+    font-weight: bold;
+}
+.Filtres div {
+    font-weight: bold;
+    border-style: solid;
+    border-color: #F2F2F2;
+    padding: 15px;
+    
 }
 
 /*On passe au footer*/
@@ -115,6 +135,10 @@ height: 150px;
     width: 60%;
     height: 700px;
     background-color: #F2F2F2;
+}
+
+.hébergements strong{
+    font-weight: bold;
 }
 .Tuile {
     display: flex;
