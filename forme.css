@@ -16,7 +16,7 @@ header {
     justify-content: space-between;
 }
 /* Nav ok il reste à changer la couleur au survol et ajouter le surlignage */
-nav > ul {
+nav ul {
     list-style: none;
     display: flex;
     flex-direction: row;
@@ -28,36 +28,121 @@ nav li{
     margin-top: 20px;
 }
 
-nav #login {
+.login a {
     font-weight: bold;
-    margin-right: 20px;
+    margin-right: 20px; 
+    color: #0065fc;
 }
 
 nav a {
     text-decoration: none;
-    color: #0065FC;
+}
+
+.survol a {
+    color: black;
+}
+
+
+.survol :hover {
+    border-color: #0065fc;
+    border-top-style: solid;
+    /* border-width: 20px; */
+    color: #0065fc;
+}
+
+/* Partie recherche */
+.Voletrecherche {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 15px;
+    margin-left: 20px;
+}
+
+.Searchbutton {
+    background-color: #0065fc;
+    color: white;
+    border-style: none;
+    padding: 10px;
+    border-radius: 0px 12px 12px 0px;
+}
+
+.Searcharea {
+    padding: 10px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #F2F2F2;
+}
+
+.Position {
+    padding: 10px 12px 10px 12px;
+    background-color: #F2F2F2;
+    border-radius: 12px 0px 0px 12px;
+
 }
 
 /* Partie filtre */
 
 .Filtres {
-    width: 70%;
+    width: 65%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px;
+    margin-left: 30px;
+}
+
+.Filtres {
+    font-weight: bold;
+
+}
+.Filtres a {
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+    font-weight: bold;
+    border-style: solid;
+    border-width: 2px 2px 2px 0px;
+    border-color: #F2F2F2;
+    border-radius: 50px;
+    padding-right: 20px;
+    text-decoration: none;
+    color:black;
+}
+
+.Filtrosurvol :hover {
+    border-radius: 50px;
+    background-color: #deebff;
+    color: #0065fc;
+}
+
+.logofiltres {
+    color: #0065fc;
+    background-color: #deebff;
+    border-radius: 50px;
+    padding: 19px;
+    margin-right: 17px;
+}
+
+.logoinfo {
+    color: #0065fc;
+    border-radius: 50px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #F2F2F2;
+    padding: 7px 10px 7px 10px;
+    font-size: 9px;
+}
+.Logedispo{
+    
+    margin-left: 20px;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
-    margin-top: 20px;
-}
+    width: 23%;
 
-.Filtres p {
-    font-weight: bold;
-}
-.Filtres div {
-    font-weight: bold;
-    border-style: solid;
-    border-color: #F2F2F2;
-    padding: 15px;
-    
 }
 
 /*On passe au footer*/

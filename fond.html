@@ -12,29 +12,31 @@
                 srcset="logo/Reservia.svg">
             <nav>
                 <ul>
-                    <li><a href="#hebergements"> Hébergements</a></li>                    
-                    <li><a href="#activites"> Activités</a></li>
-                    <li id="login"><a href="#inscription"> S'inscrire</a></li>
+                    <li class="survol"><a href="#hebergements"> Hébergements</a></li>                    
+                    <li class="survol"><a href="#activites"> Activités</a></li>
+                    <li class="login"><a href="#inscription"> S'inscrire</a></li>
                 </ul>
             </nav>
         </header>
 
         <main>
             <section>            
-                <h2>Trouvez votre hébergements pour des vacances de rêve</h2>
+                <h1>Trouvez votre hébergements pour des vacances de rêve</h1>
                 <p>En plein centre ville ou en pleine nature</p></section>
             <section>
-                <i class="fas fa-map-marker-alt"></i>
-                <input type="search" name="search" placeholder="Marseille, France">
-                <input type="submit" value="Rechercher">
+                <div class="Voletrecherche">
+                    <i class="fas fa-map-marker-alt Position"></i>
+                    <input class="Searcharea" type="search" name="search" placeholder="Marseille, France">
+                    <input class="Searchbutton" type="submit" value="Rechercher">
+                </div>
                 <div class="Filtres">
                     <p>Filtres</p>
-                    <div><i class="fas fa-money-bill-wave"></i> Économique</li></div>                                    
-                    <div><i class="fas fa-child"></i> Familial</li></div>
-                    <div><i class="fas fa-heart"></i> Romantique</li></div>
-                    <div><i class="fas fa-dog"></i> Animaux autorisés</li></div>
+                    <div class="Filtrosurvol"><a href="#"><i class="fas fa-money-bill-wave logofiltres"></i><p>Économique</p></a></div>                                    
+                    <div class="Filtrosurvol"><a href="#"><i class="fas fa-child logofiltres"></i><p>Familial</p></a></div>
+                    <div class="Filtrosurvol"><a href="#"><i class="fas fa-heart logofiltres"></i><p>Romantique</p></a></div>
+                    <div class="Filtrosurvol"><a href="#"><i class="fas fa-dog logofiltres"></i><p>Animaux autorisés</p></a></div>
                 </div>
-                    <p><i class="fas fa-info"></i>Plus de 500 logements disponibles</p>
+                    <p class="Logedispo"><i class="fas fa-info logoinfo"></i>Plus de 500 logements disponibles dans cette ville</p>
             </section>
             
             <section class="Hotel">
@@ -153,6 +155,7 @@
         </main>
         
         <footer>
+            <!-- Balise P pour le texte attention -->
             <div class="Apropos"> 
                 <h3>A propos</h3>
                 <div><a href="#">Fonctionnement du site</a></div>
