@@ -174,23 +174,33 @@ footer ul {
     list-style: none;  
 }
 
+/* Section centrale incluant Hébergements à Marseille et Les plus populaires */
 .Hotel {
    display: flex; 
    flex-wrap: wrap;
    flex-direction: row-reverse;
-   justify-content: space-around;
-   margin-right: 20px;
-   margin-left: 20px;
-
+   justify-content: space-between;
 }
 
 /* Partie les plus populaires */
 
 .populaires {
     width: 25%;
-    height: 700px;
+    height: auto;
     background-color: #F2F2F2;
+    border-style: none;
+    border-radius: 20px;
+    margin-right: 100px;
+}
 
+.Titrelespluspopulaires {
+    display: flex;
+    justify-content: space-around;
+    font-weight: bold;
+    width: 70%;
+    font-size: 30px;
+    margin-left: 20px;
+    margin-bottom: 50px;
 }
 
 .Tuilepopu {
@@ -198,28 +208,49 @@ footer ul {
     flex-direction: row ;
     justify-content: center;
     flex-wrap: wrap;
+    width: 100%;
 }
 
-.popudisplay {
-background-color: white;
-margin-top: 30px;
-width: 200px;
-height: 150px;
-}
-
-.popudisplay img {
-    width: 150px;
-    height: 150px;
+.popudisplayjpg img {
+    width: 170px;
+    height: 170px;
     object-fit: cover;
+    border-radius: 20px 0px 0px 20px;
+}
 
+.popudisplayhotel {
+background-color: white;
+margin-bottom: 40px;
+width: 250px;
+height: 170px;
+border-radius: 0px 20px 20px 0px;
+}
+.popudisplayhotel p {
+    margin-left: 20px;
+}
+
+.etoiles {
+    margin-top: 60px;
+}
+
+.stars {
+    margin-top: 40px;
+}
+
+.nomhotel {
+    font-weight: bold;
+    font-size: 18px;
 }
 
 /* Partie hébergements */
 
 .hébergements {
-    width: 60%;
-    height: 700px;
+    width: 58%;
+    height: auto;
     background-color: #F2F2F2;
+    margin-left: 20px;
+    border-style: none;
+    border-radius: 20px;
 }
 
 .hébergements strong{
@@ -233,13 +264,32 @@ height: 150px;
 
 .hoteldisplay {
     background-color: white;
-    margin: 30px;
-    }
+    margin: 20px;
+    border-radius: 20px;
+    width: 300px;
+    height: auto;
+}
 
-    .hoteldisplay img {
-    width: 250px;
-    height: 130px;
+.hoteldisplay p{
+    margin-left: 10px;
+}
+
+.Titrehebergements {
+    font-size: 30px;
+    font-weight: bold;
+    margin-left: 60px;
+}
+
+.Afficher {
+    font-size: 19px;
+    font-weight: bold;
+    margin-left: 60px;
+}
+.hoteldisplay img {
+    width: 300px;
+    height: 150px;
     object-fit: cover;
+    border-radius: 20px 20px 0px 0px;
 }
 
 /* Partie activités */
