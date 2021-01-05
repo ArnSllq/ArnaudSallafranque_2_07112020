@@ -14,6 +14,8 @@ header {
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
+    margin-left: 100px;
+    margin-right: 100px;
 }
 /* Nav ok il reste à changer la couleur au survol et ajouter le surlignage */
 nav ul {
@@ -156,14 +158,18 @@ footer {
     width: auto;
     height: 200px;
     background-color: #F2F2F2;
-    }
+}
 
+footer a{
+    text-decoration: none;
+    color: black;
+}
 .Apropos {
-    margin-left: 50px;
+    margin-left: 100px;
 }
 
 .Assistance {
-    margin-right: 350px;
+    margin-right: 400px;
 }
 
 h3 {
@@ -185,7 +191,7 @@ footer ul {
 /* Partie les plus populaires */
 
 .populaires {
-    width: 25%;
+    width: 27%;
     height: auto;
     background-color: #F2F2F2;
     border-style: none;
@@ -210,6 +216,17 @@ footer ul {
     flex-wrap: wrap;
     width: 100%;
 }
+.Tuilepopu a {
+    text-decoration: none;
+    color: black;
+}
+
+.Popudisplay {
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+
 
 .popudisplayjpg img {
     width: 170px;
@@ -248,7 +265,7 @@ border-radius: 0px 20px 20px 0px;
     width: 58%;
     height: auto;
     background-color: #F2F2F2;
-    margin-left: 20px;
+    margin-left: 100px;
     border-style: none;
     border-radius: 20px;
 }
@@ -260,6 +277,11 @@ border-radius: 0px 20px 20px 0px;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+}
+
+.Tuile a {
+    text-decoration: none;
+    color: black;
 }
 
 .hoteldisplay {
@@ -295,31 +317,42 @@ border-radius: 0px 20px 20px 0px;
 /* Partie activités */
 
 .activités {
-    background-color: thistle;
     width: 90%;
-    height: 700px;
-    margin-left: 20px;
-    margin-right: 20px;
+    height: auto;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-bottom: 20px;
 }
 .Tuilacti {
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
     align-self: flex-end;
 }
+.Tuilacti a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+.Tuilacti p {
+    margin-left: 15px;
+}
 
 .activdisplay1 {
-    background-color: teal;
     height: 600px;
     width: 400px;
+    margin-bottom: 20px;
+    border-radius: 20px;
 }
 
 .activdisplay1 img {
     height: 550px;
     width: 400px;
     object-fit: cover;
+    border-radius: 20px 20px 0px 0px;
 
 }
 
@@ -330,16 +363,23 @@ border-radius: 0px 20px 20px 0px;
     justify-content: space-between;
     align-items:flex-start;
     align-self: center;
+    margin-bottom: 20px;
 }
 
 .activdisplay2 {
-    background-color: teal;
     height: 270px;
     width: 400px;
+    border-radius: 20px;
 }
 
 .activdisplay2 img {
     width: 400px ;
     height: 220px;
     object-fit: cover;
+    border-radius: 20px 20px 0px 0px;
+
+}
+.Titreactivites {
+    font-size: 30px;
+    font-weight: bold;
 }
