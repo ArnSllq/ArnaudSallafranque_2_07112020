@@ -6,6 +6,14 @@
 body{
     font-family: 'Raleway';
 }
+
+.abluestar { 
+    color: #0065fc;
+}
+
+.agreystar {
+    color: #F2F2F2;
+}
 /* Au maximum je vais travailler section par section pour le CSS
 Ici la mise en page du header */
 
@@ -48,17 +56,27 @@ nav a {
 .survol :hover {
     border-color: #0065fc;
     border-top-style: solid;
-    /* border-width: 20px; */
     color: #0065fc;
 }
+/* le chapeau */
 
+.chapeau {
+    margin-left: 100px;
+}
+h1 {
+    font-size: 27px;
+    font-weight: bold;
+}
+.chapeau p {
+    font-size: 18px;
+}
 /* Partie recherche */
 .Voletrecherche {
     display: flex;
     flex-direction: row;
     align-items: center;
     padding: 15px;
-    margin-left: 20px;
+    margin-left: 80px;
 }
 
 .Searchbutton {
@@ -67,6 +85,7 @@ nav a {
     border-style: none;
     padding: 10px;
     border-radius: 0px 12px 12px 0px;
+    font-size: 15px;
 }
 
 .Searcharea {
@@ -92,7 +111,7 @@ nav a {
     justify-content: space-between;
     align-items: center;
     margin-top: 10px;
-    margin-left: 30px;
+    margin-left: 100px
 }
 
 .Filtres {
@@ -138,7 +157,7 @@ nav a {
 }
 .Logedispo{
     
-    margin-left: 20px;
+    margin-left: 90px;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
@@ -224,23 +243,27 @@ footer ul {
 .Popudisplay {
     display: flex;
     flex-wrap: nowrap;
+    margin-bottom: 20px;
 }
-
-
 
 .popudisplayjpg img {
     width: 170px;
     height: 170px;
     object-fit: cover;
     border-radius: 20px 0px 0px 20px;
+    border-style: solid;
+    border-width: 4px 0px 4px 4px;
+    border-color: white;
 }
 
 .popudisplayhotel {
 background-color: white;
-margin-bottom: 40px;
 width: 250px;
 height: 170px;
 border-radius: 0px 20px 20px 0px;
+border-style: solid;
+border-width: 4px;
+border-color: white;
 }
 .popudisplayhotel p {
     margin-left: 20px;
@@ -288,6 +311,9 @@ border-radius: 0px 20px 20px 0px;
     background-color: white;
     margin: 20px;
     border-radius: 20px;
+    border-style: solid;
+    border-width: 4px 4px 4px 4px;
+    border-color: white;
     width: 300px;
     height: auto;
 }
@@ -346,6 +372,8 @@ border-radius: 0px 20px 20px 0px;
     width: 400px;
     margin-bottom: 20px;
     border-radius: 20px;
+    box-shadow: 0 3.6px 10.1px rgba(0, 0, 0, 0.05),
+  0 29px 81px rgba(0, 0, 0, 0.1);
 }
 
 .activdisplay1 img {
@@ -370,6 +398,8 @@ border-radius: 0px 20px 20px 0px;
     height: 270px;
     width: 400px;
     border-radius: 20px;
+    box-shadow: 0 3.6px 10.1px rgba(0, 0, 0, 0.05),
+  0 29px 81px rgba(0, 0, 0, 0.1);
 }
 
 .activdisplay2 img {
@@ -382,4 +412,5 @@ border-radius: 0px 20px 20px 0px;
 .Titreactivites {
     font-size: 30px;
     font-weight: bold;
+    margin-top: 50px;
 }
