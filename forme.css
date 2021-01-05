@@ -34,7 +34,7 @@ nav ul {
 }
 
 nav li{
-    margin-left: 40px;
+    margin-left: 50px;
     margin-top: 20px;
 }
 
@@ -52,12 +52,15 @@ nav a {
     color: black;
 }
 
-
 .survol :hover {
+    padding-top: 20px;
     border-color: #0065fc;
     border-top-style: solid;
+    border-width: 3px;
     color: #0065fc;
+    margin-top: 100px;
 }
+
 /* le chapeau */
 
 .chapeau {
