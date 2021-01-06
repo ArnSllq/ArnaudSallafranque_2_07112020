@@ -5,8 +5,8 @@
 
 body{
     font-family: 'Raleway';
-    max-width: 1920px;
-    margin: 0 100px
+    max-width: 1440px;
+    margin: 0 auto;
 }
 
 .abluestar { 
@@ -96,13 +96,12 @@ h1 {
     padding: 10px 12px 10px 12px;
     background-color: #F2F2F2;
     border-radius: 12px 0px 0px 12px;
-
 }
 
 /* Partie filtre */
 
 .Filtres {
-    width: 55%;
+    width: 65%;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -124,10 +123,6 @@ h1 {
     padding-right: 20px;
     text-decoration: none;
     color:black;
-}
-
-.Filtrosurvol {
-    margin-top: 10px;
 }
 
 .Filtrosurvol :hover {
@@ -158,7 +153,7 @@ h1 {
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
-    width: 25%;
+    width: 30%;
 }
 
 /*On passe au footer*/
@@ -202,6 +197,8 @@ footer ul {
    flex-wrap: wrap;
    flex-direction: row-reverse;
    justify-content: space-between;
+   width: 100%;
+   height: auto;
 }
 
 /* Partie les plus populaires */
@@ -221,14 +218,16 @@ footer ul {
     width: 80%;
     font-size: 30px;
     margin-left: 40px;
-    margin-bottom: 50px;
 }
 
 .Tuilepopu {
     display: flex;
-    flex-direction: column ;
+    flex-direction: column;
     justify-content: center;
     flex-wrap: wrap;
+    width: 85%;
+    height: 90%;
+    margin: auto;
 }
 .Tuilepopu a {
     text-decoration: none;
@@ -257,7 +256,7 @@ footer ul {
 
 .popudisplayhotel {
 background-color: white;
-width: 250px;
+width: auto;
 height: 170px;
 border-radius: 0px 20px 20px 0px;
 border-style: solid;
@@ -268,11 +267,11 @@ box-shadow:
   0 29px 81px rgba(0, 0, 0, 0.1);
 }
 .popudisplayhotel p {
-    margin-left: 20px;
+    margin-left: 10px;
 }
 
 .etoiles {
-    margin-top: 70px;
+    margin-top: 50px;
 }
 
 .stars {
@@ -287,7 +286,7 @@ box-shadow:
 /* Partie hébergements */
 
 .hébergements {
-    width: 63%;
+    width: 65%;
     height: auto;
     background-color: #F2F2F2;
     border-style: none;
@@ -315,7 +314,7 @@ box-shadow:
     border-style: solid;
     border-width: 4px 4px 4px 4px;
     border-color: white;
-    width: 300px;
+    width: 250px;
     height: auto;
     box-shadow:
   0 3.6px 10.1px rgba(0, 0, 0, 0.05),
@@ -340,8 +339,8 @@ box-shadow:
     color: black;
 }
 .hoteldisplay img {
-    width: 300px;
-    height: 150px;
+    width: 250px;
+    height: 130px;
     object-fit: cover;
     border-radius: 20px 20px 0px 0px;
 }
@@ -357,9 +356,7 @@ box-shadow:
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
-    justify-content: space-between;
-    align-items: center;
-    align-self: flex-end;
+    justify-content:space-between;
 }
 .Tuilacti a{
     text-decoration: none;
@@ -372,46 +369,40 @@ box-shadow:
 }
 
 .activdisplay1 {
-    height: 600px;
-    width: 400px;
-    margin-bottom: 20px;
-    border-radius: 20px;
-    box-shadow: 0 3.6px 10.1px rgba(0, 0, 0, 0.05),
-  0 29px 81px rgba(0, 0, 0, 0.1);
-}
-
-.activdisplay1 img {
-    height: 550px;
-    width: 400px;
-    object-fit: cover;
-    border-radius: 20px 20px 0px 0px;
-
-}
-
-.Colonne {
-    height: 600px;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    align-items:flex-start;
-    align-self: center;
-    margin-bottom: 20px;
-}
-
-.activdisplay2 {
-    height: 270px;
-    width: 400px;
+    height: 100%;
+    width: 45%;
     border-radius: 20px;
     box-shadow: 0 3.6px 10.1px rgba(0, 0, 0, 0.05),
     0 29px 81px rgba(0, 0, 0, 0.1);
+    margin-right: 20px;
+}
+
+.activdisplay1 img {
+    height:450px;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 20px 20px 0px 0px;
+}
+
+.Colonne {
+    display: flex;
+    flex-direction: column;
+}
+
+.activdisplay2 {
+    height: 47%;
+    width: 95%;
+    border-radius: 20px;
+    box-shadow: 0 3.6px 10.1px rgba(0, 0, 0, 0.05),
+    0 29px 81px rgba(0, 0, 0, 0.1);
+    margin-bottom: 15px;
 }
 
 .activdisplay2 img {
-    width: 400px ;
-    height: 220px;
+    width: 100% ;
+    height: 190px;
     object-fit: cover;
     border-radius: 20px 20px 0px 0px;
-
 }
 .Titreactivites {
     font-size: 30px;
