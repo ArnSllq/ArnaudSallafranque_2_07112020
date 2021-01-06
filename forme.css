@@ -5,6 +5,8 @@
 
 body{
     font-family: 'Raleway';
+    max-width: 1920px;
+    margin: 0 100px
 }
 
 .abluestar { 
@@ -22,8 +24,6 @@ header {
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
-    margin-left: 100px;
-    margin-right: 100px;
 }
 /* Nav ok il reste à changer la couleur au survol et ajouter le surlignage */
 nav ul {
@@ -35,7 +35,7 @@ nav ul {
 
 nav li{
     margin-left: 50px;
-    margin-top: 20px;
+    margin-top: 10px;
 }
 
 .login a {
@@ -53,19 +53,13 @@ nav a {
 }
 
 .survol :hover {
-    padding-top: 20px;
+    padding-top: 23px;
     border-color: #0065fc;
     border-top-style: solid;
     border-width: 3px;
     color: #0065fc;
-    margin-top: 100px;
 }
 
-/* le chapeau */
-
-.chapeau {
-    margin-left: 100px;
-}
 h1 {
     font-size: 27px;
     font-weight: bold;
@@ -73,13 +67,13 @@ h1 {
 .chapeau p {
     font-size: 18px;
 }
+
 /* Partie recherche */
 .Voletrecherche {
     display: flex;
     flex-direction: row;
     align-items: center;
-    padding: 15px;
-    margin-left: 80px;
+    margin-top: 40px;
 }
 
 .Searchbutton {
@@ -108,19 +102,16 @@ h1 {
 /* Partie filtre */
 
 .Filtres {
-    width: 65%;
+    width: 55%;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
+    flex-wrap: wrap;
     margin-top: 10px;
-    margin-left: 100px
-}
-
-.Filtres {
     font-weight: bold;
-
 }
+
 .Filtres a {
     display: flex;
     flex-direction: row;
@@ -133,6 +124,10 @@ h1 {
     padding-right: 20px;
     text-decoration: none;
     color:black;
+}
+
+.Filtrosurvol {
+    margin-top: 10px;
 }
 
 .Filtrosurvol :hover {
@@ -159,14 +154,11 @@ h1 {
     font-size: 9px;
 }
 .Logedispo{
-    
-    margin-left: 90px;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
-    width: 23%;
-
+    width: 25%;
 }
 
 /*On passe au footer*/
@@ -215,18 +207,17 @@ footer ul {
 /* Partie les plus populaires */
 
 .populaires {
-    width: 27%;
+    width: 30%;
     height: auto;
     background-color: #F2F2F2;
     border-style: none;
     border-radius: 20px;
-    margin-right: 100px;
 }
 
 .Titrelespluspopulaires {
     display: flex;
     justify-content: space-between;
-        font-weight: bold;
+    font-weight: bold;
     width: 80%;
     font-size: 30px;
     margin-left: 40px;
@@ -235,20 +226,23 @@ footer ul {
 
 .Tuilepopu {
     display: flex;
-    flex-direction: row ;
+    flex-direction: column ;
     justify-content: center;
     flex-wrap: wrap;
-    width: 100%;
 }
 .Tuilepopu a {
     text-decoration: none;
     color: black;
 }
 
-.Popudisplay {
+.Popudisplay a {
     display: flex;
     flex-wrap: nowrap;
-    margin-bottom: 40px;
+    justify-content: center;
+}
+
+.Popudisplay {
+    margin-bottom: 20px;
 }
 
 .popudisplayjpg img {
@@ -278,11 +272,11 @@ box-shadow:
 }
 
 .etoiles {
-    margin-top: 60px;
+    margin-top: 70px;
 }
 
 .stars {
-    margin-top: 40px;
+    margin-top: 50px;
 }
 
 .nomhotel {
@@ -293,10 +287,9 @@ box-shadow:
 /* Partie hébergements */
 
 .hébergements {
-    width: 58%;
+    width: 63%;
     height: auto;
     background-color: #F2F2F2;
-    margin-left: 100px;
     border-style: none;
     border-radius: 20px;
 }
@@ -339,10 +332,12 @@ box-shadow:
     margin-left: 60px;
 }
 
-.Afficher {
+.Afficher a {
     font-size: 19px;
     font-weight: bold;
     margin-left: 60px;
+    text-decoration: none;
+    color: black;
 }
 .hoteldisplay img {
     width: 300px;
@@ -354,10 +349,8 @@ box-shadow:
 /* Partie activités */
 
 .activités {
-    width: 90%;
+    width: 100%;
     height: auto;
-    margin-left: 100px;
-    margin-right: 100px;
     margin-bottom: 20px;
 }
 .Tuilacti {
