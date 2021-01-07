@@ -260,23 +260,23 @@ footer ul {
 }
 
 .popudisplayhotel {
-background-color: white;
-width: 100%;
-height: 150px;
-border-radius: 0px 20px 20px 0px;
-border-style: solid;
-border-width: 4px;
-border-color: white;
-box-shadow:
-  0 3.6px 10.1px rgba(0, 0, 0, 0.05),
-  0 29px 81px rgba(0, 0, 0, 0.1);
+    background-color: white;
+    width: 100%;
+    height: 150px;
+    border-radius: 0px 20px 20px 0px;
+    border-style: solid;
+    border-width: 4px;
+    border-color: white;
+    box-shadow:
+    0 3.6px 10.1px rgba(0, 0, 0, 0.05),
+    0 29px 81px rgba(0, 0, 0, 0.1);
 }
 .popudisplayhotel p {
     margin-left: 10px;
 }
 
 .etoiles {
- margin-top: 30px;
+    margin-top: 30px;
 }
 
 .stars {
@@ -391,6 +391,7 @@ box-shadow:
 
 .Colonne {
     height: 100%;
+    width: 100%;
     display: flex;
     flex-direction: column;
 }
