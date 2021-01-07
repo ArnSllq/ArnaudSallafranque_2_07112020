@@ -1,0 +1,419 @@
+@font-face{
+    font-family: 'Raleway';
+    src: url('Raleway/Raleway-VariableFont_wght.ttf') format('truetype');
+}
+
+body{
+    font-family: 'Raleway';
+    margin: 0 auto;
+}
+
+.abluestar { 
+    color: #0065fc;
+}
+
+.agreystar {
+    color: #F2F2F2;
+}
+/* Au maximum je vais travailler section par section pour le CSS
+Ici la mise en page du header */
+
+header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+/* Nav ok il reste à changer la couleur au survol et ajouter le surlignage */
+nav ul {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+nav li{
+    margin-left: 50px;
+    margin-top: 10px;
+}
+
+.login a {
+    font-weight: bold;
+    margin-right: 20px; 
+    color: #0065fc;
+}
+
+nav a {
+    text-decoration: none;
+}
+
+.survol a {
+    color: black;
+}
+
+.survol :hover {
+    padding-top: 23px;
+    border-color: #0065fc;
+    border-top-style: solid;
+    border-width: 3px;
+    color: #0065fc;
+}
+
+h1 {
+    font-size: 27px;
+    font-weight: bold;
+}
+.chapeau p {
+    font-size: 18px;
+}
+
+/* Partie recherche */
+.Voletrecherche {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 40px;
+}
+
+.Searchbutton {
+    background-color: #0065fc;
+    color: white;
+    border-style: none;
+    padding: 10px;
+    border-radius: 0px 12px 12px 0px;
+    font-size: 15px;
+}
+
+.Searcharea {
+    padding: 10px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #F2F2F2;
+}
+
+.Position {
+    padding: 10px 12px 10px 12px;
+    background-color: #F2F2F2;
+    border-radius: 12px 0px 0px 12px;
+}
+
+/* Partie filtre */
+
+.Filtres {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+.Filtres p {
+    width: 100%;
+}
+
+.Filtres div {
+    margin-bottom: 10px;
+}
+
+.Filtres a {
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+    font-weight: bold;
+    border-style: solid;
+    border-width: 2px 2px 2px 0px;
+    border-color: #F2F2F2;
+    border-radius: 50px;
+    padding-right: 20px;
+    text-decoration: none;
+    color:black;
+}
+
+.Filtrosurvol :hover {
+    border-radius: 50px;
+    background-color: #deebff;
+    color: #0065fc;
+}
+
+.logofiltres {
+    color: #0065fc;
+    background-color: #deebff;
+    border-radius: 50px;
+    padding: 19px;
+    margin-right: 17px;
+}
+
+.logoinfo {
+    color: #0065fc;
+    border-radius: 50px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #F2F2F2;
+    padding: 7px 10px 7px 10px;
+    font-size: 9px;
+}
+.Logedispo{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    width: 80%;
+}
+
+/*On passe au footer*/
+footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items:flex-start;
+    width: 100%;
+    height: auto;
+    background-color: #F2F2F2;
+}
+
+footer a{
+    text-decoration: none;
+    color: black;
+    margin-left: 10px;
+}
+
+h3 {
+font-weight: bold;
+margin-left: 10px;
+}
+
+footer ul {
+    list-style: none;  
+}
+
+.footerlink {
+    margin-bottom: 7px;
+}
+
+/* Section centrale incluant Hébergements à Marseille et Les plus populaires */
+.Hotel {
+   display: flex; 
+   flex-wrap: wrap;
+   flex-direction: column;
+   justify-content: space-between;
+   width: 100%;
+   height: auto;
+}
+
+/* Partie les plus populaires */
+
+.populaires {
+    width: 100%;
+    height: auto;
+    background-color: #F2F2F2;
+    border-style: none;
+    border-radius: 20px;
+    margin-bottom: 10px;
+}
+
+.Titrelespluspopulaires {
+    display: flex;
+    justify-content: space-between;
+    font-weight: bold;
+    width: 80%;
+    font-size: 25px;
+    margin-left: 40px;
+}
+
+.Tuilepopu {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 90%;
+    height: 90%;
+    margin: auto;
+}
+.Tuilepopu a {
+    text-decoration: none;
+    color: black;
+}
+
+.Popudisplay a {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+}
+
+.Popudisplay {
+    margin-bottom: 20px;
+}
+
+.popudisplayjpg img {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 20px 0px 0px 20px;
+    border-style: solid;
+    border-width: 4px 0px 4px 4px;
+    border-color: white;
+}
+
+.popudisplayhotel {
+background-color: white;
+width: 100%;
+height: 150px;
+border-radius: 0px 20px 20px 0px;
+border-style: solid;
+border-width: 4px;
+border-color: white;
+box-shadow:
+  0 3.6px 10.1px rgba(0, 0, 0, 0.05),
+  0 29px 81px rgba(0, 0, 0, 0.1);
+}
+.popudisplayhotel p {
+    margin-left: 10px;
+}
+
+.etoiles {
+ margin-top: 30px;
+}
+
+.stars {
+    margin-top: 30px;
+}
+
+.nomhotel {
+    font-weight: bold;
+    font-size: auto;
+}
+
+/* Partie hébergements */
+
+.hébergements {
+    width: 100%;
+    height: auto;
+    border-style: none;
+    border-radius: 20px;
+}
+
+.hébergements strong{
+    font-weight: bold;
+}
+.Tuile {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.Tuile a {
+    text-decoration: none;
+    color: black;
+}
+
+.hoteldisplay {
+    background-color: white;
+    margin-bottom: 20px;
+    border-radius: 20px;
+    border-style: solid;
+    border-width: 4px 4px 4px 4px;
+    border-color: white;
+    width: 90%;
+    height: auto;
+    box-shadow:
+  0 3.6px 10.1px rgba(0, 0, 0, 0.05),
+  0 29px 81px rgba(0, 0, 0, 0.1);
+}
+
+.hoteldisplay p{
+    margin-left: 10px;
+}
+
+.Titrehebergements {
+    font-size: 25px;
+    font-weight: bold;
+    margin-left: 30px;
+}
+
+.Afficher a {
+    font-size: 19px;
+    font-weight: bold;
+    margin-left: 30px;
+    text-decoration: none;
+    color: black;
+}
+.hoteldisplay img {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 20px 20px 0px 0px;
+}
+
+/* Partie activités */
+
+.activités {
+    width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+}
+.Tuilacti {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content:space-between;
+}
+.Tuilacti a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+.Tuilacti p {
+    margin-left: 15px;
+}
+
+.activdisplay1 {
+    height: auto;
+    width: 90%;
+    border-radius: 20px;
+    box-shadow: 0 3.6px 10.1px rgba(0, 0, 0, 0.05),
+    0 29px 81px rgba(0, 0, 0, 0.1);
+    margin: auto;
+    margin-bottom: 20px;
+}
+
+.activdisplay1 img {
+    height: 190px;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 20px 20px 0px 0px;
+}
+
+.Colonne {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.activdisplay2 {
+    height: auto;
+    width: 90%;
+    border-radius: 20px;
+    box-shadow: 0 3.6px 10.1px rgba(0, 0, 0, 0.05),
+    0 29px 81px rgba(0, 0, 0, 0.1);
+    margin:auto;
+    margin-bottom: 20px;
+}
+
+.activdisplay2 img {
+    width: 100% ;
+    height: 190px;
+    object-fit: cover;
+    border-radius: 20px 20px 0px 0px;
+}
+.Titreactivites {
+    font-size: 25px;
+    font-weight: bold;
+    margin-top: 50px;
+    margin-left: 20px;
+}
