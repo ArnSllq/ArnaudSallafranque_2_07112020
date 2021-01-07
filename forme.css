@@ -387,6 +387,7 @@ box-shadow:
 .Colonne {
     display: flex;
     flex-direction: column;
+    width: 47%;
 }
 
 .activdisplay2 {
