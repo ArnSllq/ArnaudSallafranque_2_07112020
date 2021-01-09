@@ -5,7 +5,7 @@
 
 body{
     font-family: 'Raleway';
-    margin: 0 auto;
+    margin: 0 5px;
 }
 
 .abluestar { 
@@ -44,24 +44,26 @@ nav ul {
     margin-top: 20px;
 }
 
-.mobilenav a {
+.survol a {
+    text-decoration: none;
+    color: black;
+}
+
+.mobilenav li {
     padding-bottom: 12px;
     border-color: #F2F2F2;
     border-bottom-style: solid;
     border-width: 3px;
-    color: black;
-    text-decoration: none;
     width: 50%;
     height: 20px;
 }
 
-.mobilenav a :hover {
+.mobilenav ul :hover {
     padding-bottom: 12px;
-    border-color: #0065fc;
     border-bottom-style: solid;
     border-width: 3px;
-    color: #0065fc;
     font-weight: bold;
+    color: #0065fc;
 }
 
 .login a {
