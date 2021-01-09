@@ -10,16 +10,30 @@
     </head>
 
     <body>
-        <header>
+        <header class="bureau">
             <img id="logo" class="logo" src="logo/Reservia@3x.png" alt="Réservia"
                 srcset="logo/Reservia.svg">
-            <nav>
+            <nav class="desktop">
                 <ul>
-                    <li class="survol"><a href="#hebergements"> Hébergements</a></li>                    
-                    <li class="survol"><a href="#activites"> Activités</a></li>
-                    <li class="login"><a href="#inscription"> S'inscrire</a></li>
+                    <li class="survol"><a href="#hebergements">Hébergements</a></li>                    
+                    <li class="survol"><a href="#activites">Activités</a></li>
+                    <li class="login"><a href="#">S'inscrire</a></li>
                 </ul>
             </nav>
+        </header>
+
+        <header class="mobile">
+            <div class="navmobileup">
+                <img id="logo" class="logo" src="logo/Reservia@3x.png" alt="Réservia"
+                srcset="logo/Reservia.svg">
+                <p class="login"><a href="#">S'inscrire</a></p>
+            </div>    
+                <nav class=mobilenav>
+                    <ul>
+                        <a href="#hebergements"><li class="survol">Hébergements</li></a>                    
+                        <a href="#activites"><li class="survol">Activités</li></a>
+                   </ul>
+                </nav>
         </header>
 
         <main>
@@ -32,7 +46,8 @@
                 <div class="Voletrecherche">
                     <i class="fas fa-map-marker-alt Position"></i>
                     <input class="Searcharea" type="search" name="search" placeholder="Marseille, France">
-                    <input class="Searchbutton" type="submit" value="Rechercher">
+                    <a href="#"><input class="Searchbutton" type="submit" value="Rechercher"></a>
+                    <a href="#"><input class="Searchbuttonmob" type="submit" value="&#xf002"></a>
                 </div>
                 <div class="Filtres">
                     <p>Filtres</p>

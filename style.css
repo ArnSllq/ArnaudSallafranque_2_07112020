@@ -19,32 +19,39 @@ body{
 /* Au maximum je vais travailler section par section pour le CSS
 Ici la mise en page du header */
 
-header {
+.bureau {
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
+    width: 100%;
+    height: 60px;
 }
 /* Nav ok il reste à changer la couleur au survol et ajouter le surlignage */
-nav ul {
+.mobile {
+    display: none;
+}
+
+.desktop ul {
     list-style: none;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    padding: 0px;
 }
 
-nav li{
+.desktop li{
     margin-left: 50px;
     margin-top: 10px;
+    padding: 0px
 }
 
-.login a {
+.login a{
     font-weight: bold;
-    margin-right: 20px; 
     color: #0065fc;
 }
 
-nav a {
+.desktop a {
     text-decoration: none;
 }
 
@@ -58,6 +65,7 @@ nav a {
     border-top-style: solid;
     border-width: 3px;
     color: #0065fc;
+    font-weight: bold;
 }
 
 h1 {
@@ -75,7 +83,9 @@ h1 {
     align-items: center;
     margin-top: 40px;
 }
-
+.Searchbuttonmob {
+    display: none;
+}
 .Searchbutton {
     background-color: #0065fc;
     color: white;
@@ -83,6 +93,7 @@ h1 {
     padding: 10px;
     border-radius: 0px 12px 12px 0px;
     font-size: 15px;
+    cursor: pointer;
 }
 
 .Searcharea {
@@ -154,6 +165,14 @@ h1 {
     justify-content: space-around;
     align-items: center;
     width: 30%;
+}
+
+.fa-child {
+    padding: 20px 22px;
+}
+
+.fa-money-bill-wave {
+    padding: 20px 18px
 }
 
 /*On passe au footer*/
