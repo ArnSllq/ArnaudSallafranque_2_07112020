@@ -218,7 +218,7 @@ footer ul {
 /* Section centrale incluant Hébergements à Marseille et Les plus populaires */
 .Hotel {
    display: flex; 
-   flex-wrap: wrap;
+   flex-wrap: nowrap;
    flex-direction: row-reverse;
    justify-content: space-between;
    width: 100%;
@@ -228,7 +228,7 @@ footer ul {
 /* Partie les plus populaires */
 
 .populaires {
-    width: 30%;
+    width: 37%;
     height: auto;
     background-color: #F2F2F2;
     border-style: none;
@@ -239,17 +239,17 @@ footer ul {
     display: flex;
     justify-content: space-between;
     font-weight: bold;
-    width: 80%;
+    width: 85%;
     font-size: 30px;
-    margin-left: 40px;
+    margin-left: 25px;
 }
 
 .Tuilepopu {
     display: flex;
-    flex-direction: column;
-    justify-content: center;
+    flex-direction: row;
+    /* justify-content: center; */
     flex-wrap: wrap;
-    width: 85%;
+    width: 90%;
     height: 90%;
     margin: auto;
 }
@@ -269,8 +269,8 @@ footer ul {
 }
 
 .popudisplayjpg img {
-    width: 170px;
-    height: 170px;
+    width: 150px;
+    height: 150px;
     object-fit: cover;
     border-radius: 20px 0px 0px 20px;
     border-style: solid;
@@ -281,7 +281,7 @@ footer ul {
 .popudisplayhotel {
 background-color: white;
 width: auto;
-height: 170px;
+height: 150px;
 border-radius: 0px 20px 20px 0px;
 border-style: solid;
 border-width: 4px;
@@ -294,36 +294,31 @@ box-shadow:
     margin-left: 10px;
 }
 
-.etoiles {
-    margin-top: 50px;
-}
-
 .stars {
-    margin-top: 50px;
+   line-height: 4.5;
 }
 
-.nomhotel {
+.Popudisplay .nomhotel {
     font-weight: bold;
     font-size: 18px;
+    line-height: 1;
 }
 
-.prixhotel {
+.Popudisplay .prixhotel {
     font-size: 15px;
+    line-height: 0.5;
 }
 
 /* Partie hébergements */
 
 .hébergements {
-    width: 65%;
+    width: 57%;
     height: auto;
     background-color: #F2F2F2;
     border-style: none;
     border-radius: 20px;
 }
 
-.hébergements strong{
-    font-weight: bold;
-}
 .Tuile {
     display: flex;
     flex-wrap: wrap;
@@ -337,13 +332,13 @@ box-shadow:
 
 .hoteldisplay {
     background-color: white;
-    margin: 20px;
+    margin: 0px 10px 20px 10px;
     border-radius: 20px;
     border-style: solid;
     border-width: 4px 4px 4px 4px;
     border-color: white;
-    width: 250px;
-    height: auto;
+    width: 230px;
+    height: 190px;
     box-shadow:
   0 3.6px 10.1px rgba(0, 0, 0, 0.05),
   0 29px 81px rgba(0, 0, 0, 0.1);
@@ -356,21 +351,34 @@ box-shadow:
 .Titrehebergements {
     font-size: 30px;
     font-weight: bold;
-    margin-left: 60px;
+    margin-left: 30px;
 }
 
 .Afficher a {
     font-size: 19px;
     font-weight: bold;
-    margin-left: 60px;
+    margin-left: 30px;
     text-decoration: none;
     color: black;
 }
 .hoteldisplay img {
-    width: 250px;
-    height: 130px;
+    width: 230px;
+    height: 100px;
     object-fit: cover;
     border-radius: 20px 20px 0px 0px;
+}
+.hoteldisplay .nomhotel {
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 0.5;
+}
+
+.hoteldisplay .prixhotel {
+    font-size: 15px;
+    line-height: 0.5;
+}
+.hoteldisplay .etoiles {
+    line-height: 0;
 }
 
 /* Partie activités */
