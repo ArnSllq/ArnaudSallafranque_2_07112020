@@ -173,11 +173,12 @@ h1 {
     border-color: #F2F2F2;
     padding: 7px 10px 7px 10px;
     font-size: 9px;
+    margin-right: 10px;
 }
 .Logedispo{
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content:flex-start;
     align-items: center;
     width: 80%;
 }
