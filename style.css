@@ -37,30 +37,45 @@ Ici la mise en page du header */
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    align-items: center;
     padding: 0px;
+    width: 450px;
+    height: 30px;
 }
 
 .desktop li{
-    margin-left: 50px;
-    margin-top: 10px;
-    padding: 0px
+    width: 120px;
+    height: auto;
 }
 
-.login a{
+.login {
+    display: flex;
+    justify-content: flex-end;
+}
+.desktop .login a{
     font-weight: bold;
     color: #0065fc;
+    padding: 0px;
+    width: min-content;
+    text-align: end;
 }
 
 .desktop a {
     text-decoration: none;
+    /* margin: 30px; */
+    display: block;
+    padding: 20px;
+    width: 100%;
+    height: auto;
+    text-align: center;
 }
 
 .survol a {
     color: black;
 }
 
-.survol :hover {
-    padding-top: 23px;
+.desktop .survol :hover {
+    padding-top: 20px;
     border-color: #0065fc;
     border-top-style: solid;
     border-width: 3px;
@@ -246,7 +261,7 @@ footer ul {
     justify-content: center;
     flex-wrap: wrap;
     width: 85%;
-    height: 90%;
+    height: auto;
     margin: auto;
 }
 .Tuilepopu a {
