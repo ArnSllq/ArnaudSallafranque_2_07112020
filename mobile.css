@@ -309,7 +309,11 @@ footer ul {
 
 .nomhotel {
     font-weight: bold;
-    font-size: auto;
+    font-size: 18px;
+}
+
+.prixhotel {
+    font-size: 15px;
 }
 
 /* Partie hébergements */
