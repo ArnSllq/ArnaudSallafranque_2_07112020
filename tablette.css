@@ -6,7 +6,7 @@
 body{
     font-family: 'Raleway';
     max-width: 1024px;
-    margin: 0 auto;
+    margin: 0 5px;
 }
 
 .abluestar { 
@@ -104,7 +104,7 @@ h1 {
 }
 
 .Position {
-    padding: 10px 12px 10px 12px;
+    padding: 11px 12px 10px 12px;
     background-color: #F2F2F2;
     border-radius: 12px 0px 0px 12px;
 }
@@ -247,7 +247,7 @@ footer ul {
 .Tuilepopu {
     display: flex;
     flex-direction: row;
-    /* justify-content: center; */
+    justify-content: center;
     flex-wrap: wrap;
     width: 90%;
     height: 90%;
@@ -351,13 +351,13 @@ box-shadow:
 .Titrehebergements {
     font-size: 30px;
     font-weight: bold;
-    margin-left: 30px;
+    margin-left: 40px;
 }
 
 .Afficher a {
     font-size: 19px;
     font-weight: bold;
-    margin-left: 30px;
+    margin-left: 40px;
     text-decoration: none;
     color: black;
 }

@@ -104,7 +104,7 @@ h1 {
 }
 
 .Position {
-    padding: 10px 12px 10px 12px;
+    padding: 11px 12px 10px 12px;
     background-color: #F2F2F2;
     border-radius: 12px 0px 0px 12px;
 }
@@ -290,21 +290,20 @@ box-shadow:
     margin-left: 10px;
 }
 
-.etoiles {
-    margin-top: 50px;
-}
-
 .stars {
-    margin-top: 50px;
+    margin-top: 40px;
+    line-height: 2;
 }
 
-.nomhotel {
+.Popudisplay .nomhotel {
     font-weight: bold;
     font-size: 18px;
+    line-height: 1;
 }
 
-.prixhotel {
+.Popudisplay .prixhotel {
     font-size: 15px;
+    line-height: 1;
 }
 
 /* Partie hébergements */
@@ -333,7 +332,7 @@ box-shadow:
 
 .hoteldisplay {
     background-color: white;
-    margin: 20px;
+    margin: 0px 15px 25px 15px;
     border-radius: 20px;
     border-style: solid;
     border-width: 4px 4px 4px 4px;
@@ -352,13 +351,13 @@ box-shadow:
 .Titrehebergements {
     font-size: 30px;
     font-weight: bold;
-    margin-left: 60px;
+    margin-left: 50px;
 }
 
 .Afficher a {
     font-size: 19px;
     font-weight: bold;
-    margin-left: 60px;
+    margin-left: 50px;
     text-decoration: none;
     color: black;
 }
@@ -367,6 +366,20 @@ box-shadow:
     height: 130px;
     object-fit: cover;
     border-radius: 20px 20px 0px 0px;
+}
+
+.hoteldisplay .nomhotel {
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 1;
+}
+
+.hoteldisplay .prixhotel {
+    font-size: 15px;
+    line-height: 0.5;
+}
+.hoteldisplay .etoiles {
+    line-height: 0.5;
 }
 
 /* Partie activités */

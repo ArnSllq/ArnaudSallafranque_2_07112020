@@ -86,6 +86,12 @@ h1 {
     flex-direction: row;
     align-items: center;
     margin-top: 40px;
+    width: 240px;
+    border-right: none;
+    border-style: solid;
+    border-radius: 12px;
+    border-width: 1px;
+    border-color:#F2F2F2;
 }
 .Searchbutton {
     display: none;
@@ -96,23 +102,20 @@ h1 {
     background-color: #0065fc;
     color: white;
     border-style: none;
-    padding: 10px;
+    padding: 12px;
     border-radius: 12px 12px 12px 12px;
     font-size: 15px;
     cursor: pointer;
 }
 
 .Searcharea {
-    padding: 10px;
-    border-style: solid;
-    border-width: 1px;
-    border-color: #F2F2F2;
-    border-right: none;
+    padding: 11px;
+    border-style: none;
 }
 
 .Position {
-    padding: 10px 12px 10px 12px;
-    background-color: #F2F2F2;
+    padding: 13px 14px 12px 14px;
+    background-color:#F2F2F2;
     border-radius: 12px 0px 0px 12px;
 }
 
@@ -179,8 +182,8 @@ h1 {
     display: flex;
     flex-direction: row;
     justify-content:flex-start;
-    align-items: center;
-    width: 80%;
+    align-items:baseline;
+    width: 90%;
 }
 .fa-child {
     padding: 20px 22px;
@@ -245,9 +248,9 @@ footer ul {
     display: flex;
     justify-content: space-between;
     font-weight: bold;
-    width: 80%;
+    width: 85%;
     font-size: 25px;
-    margin-left: 40px;
+    margin-left: 25px;
 }
 
 .Tuilepopu {
@@ -300,22 +303,21 @@ footer ul {
     margin-left: 10px;
 }
 
-.etoiles {
-    margin-top: 30px;
-}
-
 .stars {
-    margin-top: 30px;
-}
-
-.nomhotel {
-    font-weight: bold;
-    font-size: 18px;
-}
-
-.prixhotel {
-    font-size: 15px;
-}
+    line-height: 2;
+    margin-top: 35px;
+ }
+ 
+ .Popudisplay .nomhotel {
+     font-weight: bold;
+     font-size: 17px;
+     line-height: 1;
+ }
+ 
+ .Popudisplay .prixhotel {
+     font-size: 15px;
+     line-height: 0.5;
+ }
 
 /* Partie hébergements */
 
@@ -361,21 +363,34 @@ footer ul {
 .Titrehebergements {
     font-size: 25px;
     font-weight: bold;
-    margin-left: 30px;
+    margin-left: 25px;
 }
 
 .Afficher a {
     font-size: 19px;
     font-weight: bold;
-    margin-left: 30px;
+    margin-left: 25px;
     text-decoration: none;
     color: black;
 }
 .hoteldisplay img {
     width: 100%;
-    height: 150px;
+    height: 120px;
     object-fit: cover;
     border-radius: 20px 20px 0px 0px;
+}
+.hoteldisplay .nomhotel {
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 1;
+}
+
+.hoteldisplay .prixhotel {
+    font-size: 15px;
+    line-height: 0.5;
+}
+.hoteldisplay .etoiles {
+    line-height: 0.5;
 }
 
 /* Partie activités */
