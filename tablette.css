@@ -20,8 +20,8 @@ main {
 .agreystar {
     color: #F2F2F2;
 }
-/* Au maximum je vais travailler section par section pour le CSS
-Ici la mise en page du header */
+
+/* Ici la mise en page du header */
 
 .bureau {
     display: flex;
@@ -32,7 +32,7 @@ Ici la mise en page du header */
     height: 60px;
     margin-left: 10px;
 }
-/* Nav ok il reste à changer la couleur au survol et ajouter le surlignage */
+/* Nav */
 .mobile {
     display: none;
 }

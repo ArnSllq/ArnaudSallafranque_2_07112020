@@ -16,8 +16,8 @@ body{
 .agreystar {
     color: #F2F2F2;
 }
-/* Au maximum je vais travailler section par section pour le CSS
-Ici la mise en page du header */
+
+/* Ici la mise en page du header */
 
 .bureau {
     display: flex;

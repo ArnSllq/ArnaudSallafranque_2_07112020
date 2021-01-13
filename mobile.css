@@ -86,7 +86,6 @@ h1 {
 .Voletrecherche {
     display: flex;
     flex-direction: row;
-    /* align-items: center; */
     justify-content: center;
     margin: auto;
     width: 80%;
