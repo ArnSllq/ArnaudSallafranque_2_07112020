@@ -19,17 +19,18 @@ body{
 
 /* Ici la mise en page du header */
 
-.bureau {
+/* .bureau {
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
     width: 100%;
     height: 60px;
-}
+} */
 /* Nav ok il reste à changer la couleur au survol et ajouter le surlignage */
-.mobile {
-    display: none;
+/* .desktop {
+    width: 100%;
+    height: auto;
 }
 
 .desktop ul {
@@ -39,19 +40,15 @@ body{
     justify-content: space-between;
     align-items: center;
     padding: 0px;
-    width: 450px;
+    width: 100%;
     height: 30px;
 }
 
-.desktop li{
-    width: 120px;
-    height: auto;
-}
-
-.login {
+.desktop a {
     display: flex;
     justify-content: flex-end;
-}
+}  
+
 .desktop .login a{
     font-weight: bold;
     color: #0065fc;
@@ -62,14 +59,11 @@ body{
 
 .desktop a {
     text-decoration: none;
-    /* margin: 30px; */
-    display: block;
     padding: 20px;
-    width: 100%;
+    width: 33%;
     height: auto;
     text-align: center;
 }
-
 .survol a {
     color: black;
 }
@@ -81,6 +75,23 @@ body{
     border-width: 3px;
     color: #0065fc;
     font-weight: bold;
+} */
+
+.desktop a {
+    text-decoration: none;
+    color: black;
+}
+.login a {
+    color: #0065fc;
+    font-weight: bold;
+}
+
+.desktop ul {
+    list-style: none;
+    padding: 0px;
+    display: flex;
+    align-items: center;
+    justify-content:;
 }
 
 h1 {
