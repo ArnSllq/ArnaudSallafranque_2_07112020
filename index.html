@@ -12,29 +12,15 @@
 
     <body>
         <header class="bureau">
-            <img class="logo" src="logo/Reservia@3x.png" alt="Réservia"
-                srcset="logo/Reservia.svg">
             <nav class="desktop">
                 <ul>
+                    <li><img class="logo" src="logo/Reservia@3x.png" alt="Reservia"
+                        srcset="logo/Reservia.svg"></li>
                     <li class="survol"><a href="#hebergements">Hébergements</a></li>                    
                     <li class="survol"><a href="#activites">Activités</a></li>
                     <li class="login"><a href="#">S'inscrire</a></li>
                 </ul>
             </nav>
-        </header>
-
-        <header class="mobile">
-            <div class="navmobileup">
-                <img class="logo" src="logo/Reservia@3x.png" alt="Réservia"
-                srcset="logo/Reservia.svg">
-                <p class="login"><a href="#">S'inscrire</a></p>
-            </div>    
-                <nav class=mobilenav>
-                    <ul>
-                        <li class="survol"><a href="#hebergements">Hébergements</a></li>                    
-                        <li class="survol"><a href="#activites">Activités</a></li>
-                   </ul>
-                </nav>
         </header>
 
         <main>
@@ -48,7 +34,8 @@
                     <i class="fas fa-map-marker-alt Position"></i>
                     <input class="Searcharea" type="search" name="search" placeholder="Marseille, France">
                     <input class="Searchbutton" type="submit" value="Rechercher">
-                    <input class="Searchbuttonmob" type="submit" value="&#xf002;">
+                    <button class="Searchbuttonmob" type="submit"> <i class="fas fa-search"></i> </button>
+
                 </div>
                 <div class="Filtres">
                     <p>Filtres</p>

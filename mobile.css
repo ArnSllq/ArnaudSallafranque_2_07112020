@@ -18,56 +18,61 @@ body{
 /* Au maximum je vais travailler section par section pour le CSS
 Ici la mise en page du header */
 
-
-/* Nav */
-.bureau {
-    display: none;
-}
-
-.navmobileup {
-    display: flex;
-    justify-content: space-between;
-    margin: 20px;
-}
-
-.mobilenav ul {
+.desktop ul {
     list-style: none;
-    padding:0px;
+    padding: 0px;
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
-    text-align: center;
-    margin-top: 20px;
-    width: 100%;
-    height: auto;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    height: 100px;
 }
 
-.mobilenav a {
-    display: block;
+.desktop ul .survol {
+    order: 2;
+}
+
+.survol a {
     text-decoration: none;
-    color: black;
-    padding-bottom: 12px;
-    border-bottom-style: solid;
+    display: block;
+    border-bottom: solid;
     border-color: #F2F2F2;
-
-}
-.mobilenav li {
-    width: 100%;
-    height: auto;
+    border-width: 2px;
+    padding-bottom: 12px;
+    color: black;
 }
 
-.mobilenav li :hover{
+.survol :hover {
     padding-bottom: 12px;
     border-color: #0065fc;
     border-bottom-style: solid;
+    border-width: 2px;
     color: #0065fc;
     font-weight: bold;
+}
+
+.desktop li {
+    width: 50%;
+}
+
+.desktop .login {
+    text-align: right;
+}
+
+.desktop .survol {
+    text-align: center;
 }
 
 .login a {
     font-weight: bold;
     color: #0065fc;
     text-decoration: none;
+    margin-right: 10px;
+}
+
+.logo {
+    margin-left: 10px;
 }
 
 h1 {
@@ -88,7 +93,7 @@ h1 {
     flex-direction: row;
     justify-content: center;
     margin: auto;
-    width: 80%;
+    width: 75%;
     border-right: none;
     border-style: solid;
     border-radius: 12px;
