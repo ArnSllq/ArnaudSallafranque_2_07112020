@@ -18,64 +18,7 @@ body{
 }
 
 /* Ici la mise en page du header */
-
-/* .bureau {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-between;
-    width: 100%;
-    height: 60px;
-} */
-/* Nav ok il reste à changer la couleur au survol et ajouter le surlignage */
-/* .desktop {
-    width: 100%;
-    height: auto;
-}
-
-.desktop ul {
-    list-style: none;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-    padding: 0px;
-    width: 100%;
-    height: 30px;
-}
-
-.desktop a {
-    display: flex;
-    justify-content: flex-end;
-}  
-
-.desktop .login a{
-    font-weight: bold;
-    color: #0065fc;
-    padding: 0px;
-    width: min-content;
-    text-align: end;
-}
-
-.desktop a {
-    text-decoration: none;
-    padding: 20px;
-    width: 33%;
-    height: auto;
-    text-align: center;
-}
-.survol a {
-    color: black;
-}
-
-.desktop .survol :hover {
-    padding-top: 20px;
-    border-color: #0065fc;
-    border-top-style: solid;
-    border-width: 3px;
-    color: #0065fc;
-    font-weight: bold;
-} */
+/* Nav ok */
 
 .desktop a {
     text-decoration: none;
@@ -90,8 +33,42 @@ body{
     list-style: none;
     padding: 0px;
     display: flex;
+    justify-content: space-between;
     align-items: center;
-    justify-content:;
+    width: 100%;
+    height: 47px;
+    margin-top: 0px;
+}
+
+.navlogo {
+    width: 60%;
+    padding-top: 25px;
+}
+.login { 
+    padding-top: 25px;
+}
+
+.survol {
+    text-align: center;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    width: 150px;
+    height: 20px;
+}
+
+.survol a {
+    width: 100%;
+    padding-top: 25px;
+}
+
+
+.survol :hover {
+    color: #0065fc;
+    font-weight: bold;
+    border-top: 3px;
+    border-top-style: solid;
+    padding-top: 25px;
 }
 
 h1 {
